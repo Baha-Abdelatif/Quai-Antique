@@ -8,7 +8,54 @@ $white: #efefef;
 $black-global: #1e1e1e;
 $font-family-sans-serif: "Montserrat", sans-serif !default;
 $font-family-serif: "Hind Madurai", serif !default;
-
+@mixin desktop-main-title {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 32px;
+  @media screen and (max-width: 1680px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 1580px) {
+    font-size: 28px;
+  }
+  @media screen and (max-width: 1480px) {
+    font-size: 26px;
+  }
+  @media screen and (max-width: 1280px) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: 1180px) {
+    font-size: 22px;
+  }
+  @media screen and (max-width: 1080px) {
+    font-size: 20px;
+  }
+}
+@mixin desktop-second-title {
+  @include desktop-main-title;
+  font-size: 24px;
+  @media screen and (max-width: 1680px) {
+    font-size: 22px;
+  }
+  @media screen and (max-width: 1580px) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 1480px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 1280px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 1180px) {
+    font-size: 14px;
+  }
+  @media screen and (max-width: 1080px) {
+    font-size: 12px;
+  }
+}
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 body {
@@ -16,6 +63,17 @@ body {
   color: $white;
 }
 
+.navbar-brand {
+  @include desktop-main-title;
+}
+.nav-link {
+  @include desktop-second-title;
+  color: $white;
+
+  &:hover {
+    color: $secondary;
+  }
+}
 h1 {
   font-family: "Lora", serif;
   font-optical-sizing: auto;

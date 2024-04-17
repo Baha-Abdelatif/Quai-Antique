@@ -11972,6 +11972,119 @@ body {
   color: #efefef;
 }
 
+.navbar-brand {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+@media screen and (max-width: 1680px) {
+  .navbar-brand {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1580px) {
+  .navbar-brand {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 1480px) {
+  .navbar-brand {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .navbar-brand {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .navbar-brand {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+.nav-link {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-size: 24px;
+  color: #efefef;
+}
+@media screen and (max-width: 1680px) {
+  .nav-link {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1580px) {
+  .nav-link {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 1480px) {
+  .nav-link {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .nav-link {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .nav-link {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .nav-link {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1680px) {
+  .nav-link {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1580px) {
+  .nav-link {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1480px) {
+  .nav-link {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .nav-link {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .nav-link {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .nav-link {
+    font-size: 12px;
+  }
+}
+.nav-link:hover {
+  color: #b6ac97;
+}
+
 h1, .h1 {
   font-family: "Lora", serif;
   font-optical-sizing: auto;
