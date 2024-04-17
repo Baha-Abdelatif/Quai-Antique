@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+$primary: #906427;
+$secondary: #b6ac97;
+$dark: #392c1e;
+$black: #292222;
+$white: #efefef;
+$black-global: #1e1e1e;
+$font-family-sans-serif: "Montserrat", sans-serif !default;
+$font-family-serif: "Hind Madurai", serif !default;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  background-color: $black;
+  color: $white;
+}
+
+h1 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: medium;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 32px;
+}

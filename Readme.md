@@ -5,7 +5,7 @@ Réalisé dans le cadre de mon Titre Professionnel Développeur d'Applications W
 
 ## Installation
 
-Ce site utilise un router en vanilla JS ainsi que la bibliothèque Bootstrap,
+Ce site utilise un router en vanilla JS ainsi que SASS et la bibliothèque Bootstrap,
 pour l'installer vous devez vous placer à la racine du projet et lancer la commande :
 
 ```bash
