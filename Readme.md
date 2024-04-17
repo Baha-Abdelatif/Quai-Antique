@@ -5,7 +5,14 @@ Réalisé dans le cadre de mon Titre Professionnel Développeur d'Applications W
 
 ## Installation
 
-Ce site est réalisé en Vanilla JS aucune installation particulière n'est nécessaire
+Ce site utilise un router en vanilla JS ainsi que la bibliothèque Bootstrap,
+pour l'installer vous devez vous placer à la racine du projet et lancer la commande :
+
+```bash
+npm install
+```
+
+afin d'installer toutes les dépendances.
 
 ## Usage
 
