@@ -15,143 +15,146 @@
 </head>
 
 <body>
-  <header>
+  <header class='text-uppercase'>
     <nav
-      class="navbar navbar-expand-lg bg-dark px-4"
+      class="navbar fixed-top navbar-expand-md bg-dark px-4 text-nowrap"
       data-bs-theme="dark"
     >
-      <div class="container-fluid">
-        <a
-          class="navbar-brand"
-          href="/"
-        >Au Quai Antique</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="/"
-              >Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="/galerie"
-              >Galerie</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="/carte"
-              >La carte</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="/reservations"
-              >Les réservations</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="/compte"
-              >Mon compte</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="/connect"
-              >Connexion/Déconnexion</a>
-            </li>
-          </ul>
-        </div>
+      <a
+        class="navbar-brand"
+        href="/"
+      >Au Quai Antique</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav ms-auto ms-2">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="/"
+            >Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="/galerie"
+            >Galerie</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="/carte"
+            >La carte</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="/reservations"
+            >Les réservations</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="/compte"
+            >Mon compte</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="/connect"
+            >Déconnexion</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </header>
-  <main id="main-page">
-    <----
-      Content
-      here
-      ----
-    >
+  <main
+    id="main-page"
+    class='container-fluid pt-4 mt-5'
+  >
+
+    <!-- Contenu dynamique de la page -->
+
   </main>
-  <footer class="bg-dark text-white text-center footer py-3">
-    <div class="row">
-      <div class="col-12 col-lg-4">
-        <h3 class="text-secondary">Nos Horaires</h3>
-        <div class="text-center">
-          <span class="col-3 text-start">Lundi</span>
-          <span class="col-3 text-start">fermé</span>
-          <span class="col-3 text-start">18:00 - 23:00</span>
+  <footer class="bg-dark text-white text-center footer py-3 container-fluid">
+    <div class="row px-lg-4">
+      <div class="col-11 col-md-6 mx-auto mt-2 col-lg-4 mt-lg-1 text-nowrap">
+        <h3 class="text-secondary text-center text-uppercase">Nos Horaires</h3>
+        <div class="row text-start">
+          <span class="col-4"> Service : </span>
+          <span class="col-4">Midi</span>
+          <span class="col-4">Soir</span>
         </div>
-        <div class="text-center">
-          <span class="col-3 text-start">Du mardi au dimanche</span>
-          <span class="col-3 text-start">12:00 - 14:00</span>
-          <span class="col-3 text-start">18:00 - 23:00</span>
+        <div class="row text-start">
+          <span class="col-4">Lundi</span>
+          <span class="col-4">fermé</span>
+          <span class="col-4">18:00 - 23:00</span>
+        </div>
+        <div class="row text-start">
+          <span class="col-4">Mardi - Dimanche</span>
+          <span class="col-4">12:00 - 14:00</span>
+          <span class="col-4">18:00 - 23:00</span>
         </div>
       </div>
-      <div class="col-12 col-lg-4">
-        <h3 class="text-secondary">Nous Contacter</h3>
-        <div class="col-12 d-inline-flex justify-content-center align-items-center">
-          <div class="text-center col-6 px-3">
+      <div class="col-11 col-md-6 mx-auto mt-2 col-lg-4 mt-lg-1 text-nowrap">
+        <h3 class="text-secondary text-center text-uppercase">Nous Contacter</h3>
+        <div class="col-12 row">
+          <div class="col-6">
             <div class="text-start">Au Quai Antique</div>
             <div class="text-start">5 Quai Charles Roissard</div>
             <div class="text-start">73000 Chambéry</div>
           </div>
-          <div class="text-center col-6 px-3 align-middle">
-            <div class="text-start"><i class="me-1 bi bi-telephone-fill"></i> 04.56.78.91.23</div>
-            <div class="text-start"><i class="me-1 bi bi-envelope"></i> <a
+          <div class="col-6">
+            <div class="text-start"><i class="me-1 bi bi-telephone-fill"></i>
+              04.56.78.91.23</div>
+            <div class="text-start text-nowrap"><i class="me-1 bi bi-envelope"></i> <a
                 href="mailto:contact@quai-antique.fr"
               >contact@quai-antique.fr</a></div>
           </div>
         </div>
       </div>
-      <div class="col-12 col-lg-4">
-        <h3 class="text-secondary">Nos réseaux</h3>
-        <div class="col-12 d-inline-flex justify-content-center align-items-center">
-          <div class="text-center col-6 px-3 mx-auto">
-            <div class="text-center">
-              <span><a
-                  href="https://deliveroo.com"
-                  target="_blank"
-                ><i class="align-bottom bi bi-deliveroo me-2"></i></a></span>
-              <span><a
-                  href="https://ubereats.com"
-                  target="_blank"
-                ><i class="align-bottom bi bi-uber me-2"></i></a></span>
-              <span><a
-                  href="https://tripadvisor.com"
-                  target="_blank"
-                ><i class="align-bottom bi bi-tripadvisor me-2"></i></a></span>
-              <span><a
-                  href="https://instagram.com"
-                  target="_blank"
-                ><i class="align-bottom bi bi-instagram me-2"></i></a></span>
-              <span><a
-                  href="https://facebook.com"
-                  target="_blank"
-                ><i class="align-bottom bi bi-facebook me-2"></i></a></span>
-            </div>
+      <div class="col-11 col-md-11 mx-auto mt-2 col-lg-4 mt-lg-1 text-nowrap">
+        <h3 class="text-secondary text-center text-uppercase">Nos réseaux</h3>
+        <div class="col-12">
+          <div class="text-center">
+            <span><a
+                href="https://deliveroo.com"
+                target="_blank"
+              ><i class="align-bottom bi bi-deliveroo me-2"></i></a></span>
+            <span><a
+                href="https://ubereats.com"
+                target="_blank"
+              ><i class="align-bottom bi bi-uber me-2"></i></a></span>
+            <span><a
+                href="https://tripadvisor.com"
+                target="_blank"
+              ><i class="align-bottom bi bi-tripadvisor me-2"></i></a></span>
+            <span><a
+                href="https://instagram.com"
+                target="_blank"
+              ><i class="align-bottom bi bi-instagram me-2"></i></a></span>
+            <span><a
+                href="https://facebook.com"
+                target="_blank"
+              ><i class="align-bottom bi bi-facebook me-2"></i></a></span>
           </div>
         </div>
       </div>
     </div>
     <hr>
-    <div class="row credits">
+    <div class="row credits text-nowrap">
 
       <p class="text-secondary text-center">Made with ☕ & ❤️ by Abdelatif BAHA - <a
           href="https://abdevweb.com"
