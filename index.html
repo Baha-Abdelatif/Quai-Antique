@@ -23,7 +23,7 @@
       <a
         class="navbar-brand"
         href="/"
-      >Au Quai Antique</a>
+      >Le Quai Antique</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -82,15 +82,14 @@
   </header>
   <main
     id="main-page"
-    class='container-fluid pt-4 mt-5'
+    class='container-fluid px-0 pt-2 mt-2'
   >
-
     <!-- Contenu dynamique de la page -->
 
   </main>
   <footer class="bg-dark text-white text-center footer py-3 container-fluid">
     <div class="row px-lg-4">
-      <div class="col-11 col-md-6 mx-auto mt-2 col-lg-4 mt-lg-1 text-nowrap">
+      <div class="col-10 col-md-6 mx-auto mt-2 col-lg-4 mt-lg-1 text-nowrap">
         <h3 class="text-secondary text-center text-uppercase">Nos Horaires</h3>
         <div class="row text-start">
           <span class="col-4"> Service : </span>
@@ -103,20 +102,20 @@
           <span class="col-4">18:00 - 23:00</span>
         </div>
         <div class="row text-start">
-          <span class="col-4">Mardi - Dimanche</span>
+          <span class="col-4">Mardi à Dimanche</span>
           <span class="col-4">12:00 - 14:00</span>
           <span class="col-4">18:00 - 23:00</span>
         </div>
       </div>
-      <div class="col-11 col-md-6 mx-auto mt-2 col-lg-4 mt-lg-1 text-nowrap">
+      <div class="col-10 col-md-6 mx-auto mt-2 col-lg-4 mt-lg-1 text-nowrap">
         <h3 class="text-secondary text-center text-uppercase">Nous Contacter</h3>
         <div class="col-12 row">
           <div class="col-6">
-            <div class="text-start">Au Quai Antique</div>
+            <div class="text-start">Le Quai Antique</div>
             <div class="text-start">5 Quai Charles Roissard</div>
             <div class="text-start">73000 Chambéry</div>
           </div>
-          <div class="col-6">
+          <div class="col-6 ">
             <div class="text-start"><i class="me-1 bi bi-telephone-fill"></i>
               04.56.78.91.23</div>
             <div class="text-start text-nowrap"><i class="me-1 bi bi-envelope"></i> <a
@@ -125,7 +124,7 @@
           </div>
         </div>
       </div>
-      <div class="col-11 col-md-11 mx-auto mt-2 col-lg-4 mt-lg-1 text-nowrap">
+      <div class="col-10 col-md-11 mx-auto mt-2 col-lg-4 mt-lg-1 text-nowrap">
         <h3 class="text-secondary text-center text-uppercase">Nos réseaux</h3>
         <div class="col-12">
           <div class="text-center">
@@ -156,10 +155,18 @@
     <hr>
     <div class="row credits text-nowrap">
 
-      <p class="text-secondary text-center">Made with ☕ & ❤️ by Abdelatif BAHA - <a
+      <p class="text-secondary text-center">Made with <a
+          href="https://buymeacoffee.com/abdevweb"
+          target='_blank'
+          title="Cliquez ici pour m'offrir un café."
+        >☕</a> & <a
+          href="https://github.com/Baha-Abdelatif/Quai-Antique"
+          target='_blank'
+          title="Cliquez ici pour aimer ce projet sur Github."
+        >❤️</a> by Abdelatif BAHA - <a
           href="https://abdevweb.com"
           target="_blank"
-        >AbDevWeb</a> 2024</p>
+        >AbDevWeb</a> <span id="footer_copyright_year"></span></p>
 
     </div>
   </footer>
@@ -168,6 +175,10 @@
     src="/Router/router.js"
   ></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script
+    type="module"
+    src="/js/index.js"
+  ></script>
 </body>
 
 </html>

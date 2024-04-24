@@ -11967,156 +11967,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-html {
-  max-width: 100vw;
-  min-height: -moz-fit-content;
-  min-height: fit-content;
-}
-
-body {
-  min-width: 360px;
-  width: 100%;
-  max-width: 100vw;
-  background-color: #292222;
-  color: #efefef;
-  font-size: 0.9rem;
-}
-@media screen and (min-width: 768px) {
-  body {
-    font-size: 0.75rem;
-  }
-}
-@media screen and (min-width: 992px) {
-  body {
-    font-size: 0.8rem;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body {
-    font-size: 0.9rem;
-  }
-}
-@media screen and (min-width: 1400px) {
-  body {
-    font-size: 1rem;
-  }
-}
-@media screen and (max-width: 576px) {
-  body {
-    font-size: 0.6rem;
-  }
-}
-
-header .navbar-brand {
-  font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-size: clamp(18px, 2.2vmax, 28px);
-}
-header .nav-link {
-  font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-weight: 400;
-  color: #efefef;
-}
-header .nav-link:hover {
-  color: #b6ac97;
-}
-
-main {
-  min-width: 360px;
-  width: 100%;
-  max-width: 100vw;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  font-family: "Inter", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  text-transform: none;
-}
-footer h3, footer .h3 {
-  font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-family: "Montserrat", serif;
-  font-weight: 500;
-}
-footer a {
-  color: #efefef;
-  text-decoration: none;
-}
-footer .bi {
-  color: #b6ac97;
-}
-footer .bi:hover {
-  color: #efefef;
-}
-footer .bi.bi-deliveroo {
-  -webkit-mask-image: url("/public/icons/deliveroo.svg");
-  mask-image: url("/public/icons/deliveroo.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: inline-block;
-  background-color: #b6ac97;
-  vertical-align: bottom;
-  margin-bottom: 0.2rem;
-  min-height: 17px;
-  min-width: 17px;
-}
-footer .bi.bi-deliveroo:hover {
-  background-color: #efefef;
-}
-footer .bi.bi-uber {
-  -webkit-mask-image: url("/public/icons/ubereats.svg");
-  mask-image: url("/public/icons/ubereats.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: inline-block;
-  background-color: #b6ac97;
-  vertical-align: bottom;
-  margin-bottom: 0.2rem;
-  min-height: 17px;
-  min-width: 17px;
-}
-footer .bi.bi-uber:hover {
-  background-color: #efefef;
-}
-footer .bi.bi-tripadvisor {
-  -webkit-mask-image: url("/public/icons/tripadvisor.svg");
-  mask-image: url("/public/icons/tripadvisor.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: inline-block;
-  background-color: #b6ac97;
-  vertical-align: bottom;
-  margin-bottom: 0.2rem;
-  min-height: 17px;
-  min-width: 17px;
-}
-footer .bi.bi-tripadvisor:hover {
-  background-color: #efefef;
-}
-footer hr {
-  max-width: 98vw;
-  margin: 1rem auto;
-}
-footer .credits a {
-  color: #906427;
-}
-footer .credits a:hover {
-  color: #efefef;
-}
-
 .fundo {
   animation: scales 3s alternate infinite;
   transform-origin: center;
@@ -12209,4 +12059,190 @@ footer .credits a:hover {
     fill: transparent;
     stroke-dashoffset: -200;
   }
+}
+html {
+  max-width: 100vw;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+
+body {
+  min-width: 360px;
+  width: 100%;
+  max-width: 100vw;
+  background-color: #292222;
+  color: #efefef;
+  font-size: 0.9rem;
+}
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  body {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  body {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  body {
+    font-size: 0.6rem;
+  }
+}
+
+header .navbar-brand {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: clamp(18px, 2.2vmax, 28px);
+}
+header .nav-link {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #efefef;
+}
+header .nav-link:hover {
+  color: #b6ac97;
+}
+
+main {
+  min-width: 360px;
+  width: 100%;
+  max-width: 100vw;
+  min-height: 80vh;
+}
+main .hero-scene {
+  position: relative;
+}
+main .hero-scene h1, main .hero-scene .h1 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: clamp(32px, 6.4vmax, 48px);
+  font-weight: 400;
+}
+main .hero-scene p {
+  font-size: clamp(18px, 2vmax, 24px);
+  text-transform: capitalize;
+}
+main .hero-scene::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../public/images/home_hero_background.jpg);
+  background-size: cover;
+  filter: brightness(0.3);
+}
+main .hero-scene * {
+  position: relative;
+}
+main .hero-scene .hero-scene-content {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  font-family: "Hind Madurai", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: none;
+}
+footer h3, footer .h3 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+footer a {
+  color: #efefef;
+  text-decoration: none;
+}
+footer .bi {
+  color: #b6ac97;
+}
+footer .bi:hover {
+  color: #efefef;
+}
+footer .bi.bi-deliveroo {
+  -webkit-mask-image: url("/public/icons/deliveroo.svg");
+  mask-image: url("/public/icons/deliveroo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  background-color: #b6ac97;
+  vertical-align: bottom;
+  margin-bottom: 0.2rem;
+  min-height: 17px;
+  min-width: 17px;
+}
+footer .bi.bi-deliveroo:hover {
+  background-color: #efefef;
+}
+footer .bi.bi-uber {
+  -webkit-mask-image: url("/public/icons/ubereats.svg");
+  mask-image: url("/public/icons/ubereats.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  background-color: #b6ac97;
+  vertical-align: bottom;
+  margin-bottom: 0.2rem;
+  min-height: 17px;
+  min-width: 17px;
+}
+footer .bi.bi-uber:hover {
+  background-color: #efefef;
+}
+footer .bi.bi-tripadvisor {
+  -webkit-mask-image: url("/public/icons/tripadvisor.svg");
+  mask-image: url("/public/icons/tripadvisor.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  background-color: #b6ac97;
+  vertical-align: bottom;
+  margin-bottom: 0.2rem;
+  min-height: 17px;
+  min-width: 17px;
+}
+footer .bi.bi-tripadvisor:hover {
+  background-color: #efefef;
+}
+footer hr {
+  max-width: 98vw;
+  margin: 1rem auto;
+}
+footer .credits a {
+  color: #906427;
+}
+footer .credits a:hover {
+  color: #efefef;
 }/*# sourceMappingURL=main.css.map */

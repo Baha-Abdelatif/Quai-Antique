@@ -1,3 +1,133 @@
-@import url("/node_modules/bootstrap-icons/font/bootstrap-icons.min.css");
-@import "custom";
-@import "404";
+@import url('/node_modules/bootstrap-icons/font/bootstrap-icons.min.css');
+@import 'utils';
+@import 'custom';
+@import 'home';
+@import '404';
+
+html {
+  max-width: 100vw;
+  min-height: fit-content;
+}
+
+body {
+  @include global-width;
+  background-color: $black;
+  color: $white;
+  font-size: 0.9rem;
+  @media screen and (min-width: 768px) {
+    font-size: 0.75rem;
+  }
+  @media screen and (min-width: 992px) {
+    font-size: 0.8rem;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 0.9rem;
+  }
+  @media screen and (min-width: 1400px) {
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 576px) {
+    font-size: 0.6rem;
+  }
+}
+
+header {
+  .navbar-brand {
+    @include desktop-main-title;
+    font-size: clamp(18px, calc(22 * $responsive-unit), 28px);
+  }
+  .nav-link {
+    @include desktop-second-title;
+    color: $white;
+
+    &:hover {
+      color: $secondary;
+    }
+  }
+}
+
+main {
+  @include global-width;
+  min-height: 80vh;
+  .hero-scene {
+    position: relative;
+    h1 {
+      @include desktop-main-title;
+      font-size: clamp(32px, calc(64 * $responsive-unit), 48px);
+      font-weight: 400;
+    }
+    p {
+      font-size: clamp(18px, calc(20 * $responsive-unit), 24px);
+      text-transform: capitalize;
+    }
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(../public/images/home_hero_background.jpg);
+      background-size: cover;
+      filter: brightness(0.3);
+    }
+
+    * {
+      //Positionner les éléments devant le ::before
+      position: relative;
+    }
+
+    .hero-scene-content {
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+footer {
+  @include text-content;
+  h3 {
+    @include headline-text;
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+  .bi {
+    color: $secondary;
+  }
+  .bi:hover {
+    color: $white;
+  }
+  .bi.bi-deliveroo {
+    -webkit-mask-image: url('/public/icons/deliveroo.svg');
+    mask-image: url('/public/icons/deliveroo.svg');
+    @include custom-icons;
+  }
+  .bi.bi-uber {
+    -webkit-mask-image: url('/public/icons/ubereats.svg');
+    mask-image: url('/public/icons/ubereats.svg');
+    @include custom-icons;
+  }
+  .bi.bi-tripadvisor {
+    -webkit-mask-image: url('/public/icons/tripadvisor.svg');
+    mask-image: url('/public/icons/tripadvisor.svg');
+    @include custom-icons;
+  }
+  hr {
+    max-width: 98vw;
+    margin: 1rem auto;
+  }
+  .credits {
+    a {
+      color: $primary;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+}
