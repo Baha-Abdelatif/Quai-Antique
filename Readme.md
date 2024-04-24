@@ -1,12 +1,12 @@
 # Site vitrine du restaurant "Au Quai Antique".
 
-Site vitrine du restaurant fictif "Au Quai Antique".
+Site vitrine du restaurant fictif "Au Quai Antique".<br/>
 Réalisé dans le cadre de mon Titre Professionnel Développeur d'Applications Web et Web Mobile.
 
 ## Installation
 
 Ce site utilise un router en vanilla JS ainsi que SASS et la bibliothèque Bootstrap,
-pour l'installer vous devez vous placer à la racine du projet et lancer la commande :
+pour l'initialiser vous devez vous placer à la racine du projet et lancer la commande :
 
 ```bash
 npm install
@@ -20,7 +20,7 @@ Vous pouvez visiter ce site à l'adresse suivante :
 
 [https://abdevweb.com/quai-antique](https://abdevweb.com/quai-antique)
 
-Ou bien l'ouvrir localement sur votre machine en utilisant le navigateur web de votre choix.
+Ou bien l'ouvrir localement sur votre machine en utilisant le serveur web local de votre choix.
 
 ## Contributions
 

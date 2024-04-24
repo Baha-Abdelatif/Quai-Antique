@@ -43,7 +43,7 @@ const LoadContentPage = async () => {
   }
 
   // Changement du titre de la page
-  document.title = actualRoute.title + ' - ' + websiteName;
+  document.title = websiteName + ' • ' + actualRoute.title;
 };
 
 // Fonction pour gérer les événements de routage (clic sur les liens)
